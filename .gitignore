@@ -24,3 +24,7 @@ cmake_install.cmake
 src/moai/moai
 release
 tmp
+
+*.xcscheme
+
+*.xcscheme
