@@ -3465,6 +3465,12 @@
 		DD80D6AA16D8029700C172D2 /* SFMT.c in Sources */ = {isa = PBXBuildFile; fileRef = DD80D69916D8029700C172D2 /* SFMT.c */; };
 		DD80D6AB16D8029700C172D2 /* SFMT.c in Sources */ = {isa = PBXBuildFile; fileRef = DD80D69916D8029700C172D2 /* SFMT.c */; };
 		DD80D6AC16D8029700C172D2 /* SFMT.c in Sources */ = {isa = PBXBuildFile; fileRef = DD80D69916D8029700C172D2 /* SFMT.c */; };
+		E09054D416F8189200EEFCCB /* MOAIKDTree.h in Headers */ = {isa = PBXBuildFile; fileRef = E09054D316F8189200EEFCCB /* MOAIKDTree.h */; };
+		E09054D516F8189200EEFCCB /* MOAIKDTree.h in Headers */ = {isa = PBXBuildFile; fileRef = E09054D316F8189200EEFCCB /* MOAIKDTree.h */; };
+		E09054D716F818D800EEFCCB /* MOAIKDTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E09054D616F818D800EEFCCB /* MOAIKDTree.cpp */; };
+		E09054D816F818D800EEFCCB /* MOAIKDTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E09054D616F818D800EEFCCB /* MOAIKDTree.cpp */; };
+		E09054DD16F81BDE00EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
+		E09054DE16F81BDE00EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
 		E91A4C3215181FDF0008F1A5 /* MOAILayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E91A4C2E15181FDF0008F1A5 /* MOAILayer.cpp */; };
 		E91A4C3315181FDF0008F1A5 /* MOAILayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E91A4C2F15181FDF0008F1A5 /* MOAILayer.h */; };
 		E91A4C3415181FDF0008F1A5 /* MOAILayerBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E91A4C3015181FDF0008F1A5 /* MOAILayerBridge.cpp */; };
@@ -5956,6 +5962,9 @@
 		DD80D67016D8025000C172D2 /* MOAIFrameBufferTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MOAIFrameBufferTexture.cpp; sourceTree = "<group>"; };
 		DD80D67116D8025000C172D2 /* MOAIFrameBufferTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOAIFrameBufferTexture.h; sourceTree = "<group>"; };
 		DD80D69916D8029700C172D2 /* SFMT.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SFMT.c; path = "../../3rdparty/sfmt-1.4/SFMT.c"; sourceTree = "<group>"; };
+		E09054D316F8189200EEFCCB /* MOAIKDTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOAIKDTree.h; sourceTree = "<group>"; };
+		E09054D616F818D800EEFCCB /* MOAIKDTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MOAIKDTree.cpp; sourceTree = "<group>"; };
+		E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = nanoflann.hpp; sourceTree = "<group>"; };
 		E91A4C2E15181FDF0008F1A5 /* MOAILayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MOAILayer.cpp; sourceTree = "<group>"; };
 		E91A4C2F15181FDF0008F1A5 /* MOAILayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOAILayer.h; sourceTree = "<group>"; };
 		E91A4C3015181FDF0008F1A5 /* MOAILayerBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MOAILayerBridge.cpp; sourceTree = "<group>"; };
@@ -6238,6 +6247,7 @@
 		032409EE13564CAF000ADC60 /* 3rd party */ = {
 			isa = PBXGroup;
 			children = (
+				E09054D916F81BDE00EEFCCB /* nanoflann */,
 				DD80D69816D8027A00C172D2 /* sfmt */,
 				0725E2EB14F45AC700551DB5 /* adcolony */,
 				032409EF13564CAF000ADC60 /* box2d */,
@@ -7968,6 +7978,8 @@
 		CD148EEE1395AE6A00A3F501 /* partition */ = {
 			isa = PBXGroup;
 			children = (
+				E09054D616F818D800EEFCCB /* MOAIKDTree.cpp */,
+				E09054D316F8189200EEFCCB /* MOAIKDTree.h */,
 				07AF16BC13F45A0100E38D1D /* MOAIPartitionResultBuffer.cpp */,
 				07AF16BD13F45A0100E38D1D /* MOAIPartitionResultBuffer.h */,
 				07AF16BE13F45A0100E38D1D /* MOAIPartitionResultMgr.cpp */,
@@ -9968,6 +9980,15 @@
 			name = sfmt;
 			sourceTree = "<group>";
 		};
+		E09054D916F81BDE00EEFCCB /* nanoflann */ = {
+			isa = PBXGroup;
+			children = (
+				E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */,
+			);
+			name = nanoflann;
+			path = ../../3rdparty/nanoflann;
+			sourceTree = "<group>";
+		};
 		E91A4C88151823520008F1A5 /* collision */ = {
 			isa = PBXGroup;
 			children = (
@@ -10437,6 +10458,7 @@
 				663704171612813D002D0D27 /* whirlpool.h in Headers */,
 				DD80D66A16D8021D00C172D2 /* MOAIMath.h in Headers */,
 				DD80D69216D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
+				E09054DE16F81BDE00EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -10746,6 +10768,8 @@
 				DD80D66916D8021D00C172D2 /* MOAIMath.h in Headers */,
 				DD80D69116D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
 				0F3208B816EF5C8F00B33547 /* USHashedString.h in Headers */,
+				E09054D516F8189200EEFCCB /* MOAIKDTree.h in Headers */,
+				E09054DD16F81BDE00EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11543,6 +11567,7 @@
 				0F32089E16EF5B0C00B33547 /* MOAIProfilerReportBox.h in Headers */,
 				0F3208A016EF5B0C00B33547 /* MOAIProfilerScope.h in Headers */,
 				0F3208B716EF5C8F00B33547 /* USHashedString.h in Headers */,
+				E09054D416F8189200EEFCCB /* MOAIKDTree.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -12880,6 +12905,7 @@
 				DD80D67E16D8025000C172D2 /* MOAIFrameBufferTexture.cpp in Sources */,
 				DD80D6A616D8029700C172D2 /* SFMT.c in Sources */,
 				0F3208B616EF5C8F00B33547 /* USHashedString.cpp in Sources */,
+				E09054D816F818D800EEFCCB /* MOAIKDTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -14150,6 +14176,7 @@
 				0F32089D16EF5B0C00B33547 /* MOAIProfilerReportBox.cpp in Sources */,
 				0F32089F16EF5B0C00B33547 /* MOAIProfilerScope.cpp in Sources */,
 				0F3208B516EF5C8F00B33547 /* USHashedString.cpp in Sources */,
+				E09054D716F818D800EEFCCB /* MOAIKDTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -14753,7 +14780,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_ENABLE_PASCAL_STRINGS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -15471,7 +15498,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_ENABLE_PASCAL_STRINGS = NO;
 				GCC_OBJC_CALL_CXX_CDTORS = YES;
@@ -16533,7 +16560,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_ENABLE_PASCAL_STRINGS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -17120,7 +17147,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_ENABLE_PASCAL_STRINGS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;

@@ -195,6 +195,7 @@ void moaicore::InitGlobals ( MOAIGlobals* globals ) {
 	REGISTER_LUA_CLASS ( MOAIViewport )
 	REGISTER_LUA_CLASS ( MOAIWheelSensor )
 	REGISTER_LUA_CLASS ( MOAIXmlParser )
+	REGISTER_LUA_CLASS ( MOAIKDTree3fi )
 	
 	#if USE_BOX2D
 		REGISTER_LUA_CLASS ( MOAIBox2DArbiter )
