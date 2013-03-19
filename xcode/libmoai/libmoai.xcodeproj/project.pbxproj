@@ -3469,8 +3469,25 @@
 		E09054D516F8189200EEFCCB /* MOAIKDTree.h in Headers */ = {isa = PBXBuildFile; fileRef = E09054D316F8189200EEFCCB /* MOAIKDTree.h */; };
 		E09054D716F818D800EEFCCB /* MOAIKDTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E09054D616F818D800EEFCCB /* MOAIKDTree.cpp */; };
 		E09054D816F818D800EEFCCB /* MOAIKDTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E09054D616F818D800EEFCCB /* MOAIKDTree.cpp */; };
-		E09054DD16F81BDE00EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
-		E09054DE16F81BDE00EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
+		E09054DE16F81BDE00EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; settings = {ATTRIBUTES = (); }; };
+		E09054DF16F8254200EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; settings = {ATTRIBUTES = (); }; };
+		E09054E516F82D9300EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
+		E09054E616F82D9500EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
+		E09054E716F82DE400EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; settings = {ATTRIBUTES = (); }; };
+		E09054E816F82DEB00EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
+		E09054E916F82DEC00EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
+		E09054EA16F82DED00EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
+		E09054EB16F82DED00EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
+		E09054EC16F82DEE00EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
+		E09054ED16F82DEE00EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
+		E09054EE16F82DEF00EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
+		E09054EF16F82DF000EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
+		E09054F016F82DF000EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
+		E09054F116F82DF100EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
+		E09054F216F82DF200EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
+		E09054F316F82DF500EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
+		E09054F416F82DF500EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
+		E09054F516F82DF600EEFCCB /* nanoflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */; };
 		E91A4C3215181FDF0008F1A5 /* MOAILayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E91A4C2E15181FDF0008F1A5 /* MOAILayer.cpp */; };
 		E91A4C3315181FDF0008F1A5 /* MOAILayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E91A4C2F15181FDF0008F1A5 /* MOAILayer.h */; };
 		E91A4C3415181FDF0008F1A5 /* MOAILayerBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E91A4C3015181FDF0008F1A5 /* MOAILayerBridge.cpp */; };
@@ -5964,7 +5981,7 @@
 		DD80D69916D8029700C172D2 /* SFMT.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SFMT.c; path = "../../3rdparty/sfmt-1.4/SFMT.c"; sourceTree = "<group>"; };
 		E09054D316F8189200EEFCCB /* MOAIKDTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOAIKDTree.h; sourceTree = "<group>"; };
 		E09054D616F818D800EEFCCB /* MOAIKDTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MOAIKDTree.cpp; sourceTree = "<group>"; };
-		E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = nanoflann.hpp; sourceTree = "<group>"; };
+		E09054DA16F81BDE00EEFCCB /* nanoflann.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = nanoflann.hpp; path = ../../3rdparty/nanoflann/nanoflann.hpp; sourceTree = SOURCE_ROOT; };
 		E91A4C2E15181FDF0008F1A5 /* MOAILayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MOAILayer.cpp; sourceTree = "<group>"; };
 		E91A4C2F15181FDF0008F1A5 /* MOAILayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOAILayer.h; sourceTree = "<group>"; };
 		E91A4C3015181FDF0008F1A5 /* MOAILayerBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MOAILayerBridge.cpp; sourceTree = "<group>"; };
@@ -10769,7 +10786,7 @@
 				DD80D69116D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
 				0F3208B816EF5C8F00B33547 /* USHashedString.h in Headers */,
 				E09054D516F8189200EEFCCB /* MOAIKDTree.h in Headers */,
-				E09054DD16F81BDE00EEFCCB /* nanoflann.hpp in Headers */,
+				E09054E716F82DE400EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11209,6 +11226,7 @@
 				663704191612813E002D0D27 /* whirlpool.h in Headers */,
 				DD80D65E16D8021D00C172D2 /* MOAIMath.h in Headers */,
 				DD80D68616D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
+				E09054DF16F8254200EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11568,6 +11586,7 @@
 				0F3208A016EF5B0C00B33547 /* MOAIProfilerScope.h in Headers */,
 				0F3208B716EF5C8F00B33547 /* USHashedString.h in Headers */,
 				E09054D416F8189200EEFCCB /* MOAIKDTree.h in Headers */,
+				E09054F116F82DF100EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11579,6 +11598,7 @@
 				E9CA1E02151AE80E005F39B7 /* MOAIAdColonyIOS.h in Headers */,
 				DD80D65F16D8021D00C172D2 /* MOAIMath.h in Headers */,
 				DD80D68716D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
+				E09054F016F82DF000EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11653,6 +11673,7 @@
 				07F11A7F15391291004EAA24 /* TJCConfig.h in Headers */,
 				DD80D66516D8021D00C172D2 /* MOAIMath.h in Headers */,
 				DD80D68D16D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
+				E09054EB16F82DED00EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11710,6 +11731,7 @@
 				07CBE8FF15E5BE7600C8DFDF /* FBViewController+Internal.h in Headers */,
 				DD80D66116D8021D00C172D2 /* MOAIMath.h in Headers */,
 				DD80D68916D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
+				E09054EE16F82DEF00EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11722,6 +11744,7 @@
 				66A0F97615A24B110019CE7F /* AKU-vungle.h in Headers */,
 				DD80D66716D8021D00C172D2 /* MOAIMath.h in Headers */,
 				DD80D68F16D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
+				E09054E916F82DEC00EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11756,6 +11779,7 @@
 				CDE8A7BA155E413100C2DFF5 /* zlcore.h in Headers */,
 				DD80D66816D8021D00C172D2 /* MOAIMath.h in Headers */,
 				DD80D69016D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
+				E09054E816F82DEB00EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11780,6 +11804,7 @@
 				CDE8A7BB155E413100C2DFF5 /* zlcore.h in Headers */,
 				DD80D66F16D8021D00C172D2 /* MOAIMath.h in Headers */,
 				DD80D69716D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
+				E09054F516F82DF600EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11793,6 +11818,7 @@
 				07F59345143E318B00C6D185 /* MOAIUntzSampleBuffer.h in Headers */,
 				DD80D66616D8021D00C172D2 /* MOAIMath.h in Headers */,
 				DD80D68E16D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
+				E09054EA16F82DED00EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11806,6 +11832,7 @@
 				07F59347143E318B00C6D185 /* MOAIUntzSampleBuffer.h in Headers */,
 				DD80D66E16D8021D00C172D2 /* MOAIMath.h in Headers */,
 				DD80D69616D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
+				E09054E616F82D9500EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11819,6 +11846,7 @@
 				E969157E1561BB93007E977B /* AKU-fmod-ex.h in Headers */,
 				DD80D66316D8021D00C172D2 /* MOAIMath.h in Headers */,
 				DD80D68B16D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
+				E09054ED16F82DEE00EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11847,6 +11875,7 @@
 				E9940D7014B7A414006465CC /* MOAICoroutine.h in Headers */,
 				DD80D66416D8021D00C172D2 /* MOAIMath.h in Headers */,
 				DD80D68C16D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
+				E09054EC16F82DEE00EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11875,6 +11904,7 @@
 				E9940D7114B7A414006465CC /* MOAICoroutine.h in Headers */,
 				DD80D66D16D8021D00C172D2 /* MOAIMath.h in Headers */,
 				DD80D69516D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
+				E09054E516F82D9300EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11884,6 +11914,7 @@
 			files = (
 				DD80D66216D8021D00C172D2 /* MOAIMath.h in Headers */,
 				DD80D68A16D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
+				E09054F216F82DF200EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11893,6 +11924,7 @@
 			files = (
 				DD80D66B16D8021D00C172D2 /* MOAIMath.h in Headers */,
 				DD80D69316D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
+				E09054F316F82DF500EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11906,6 +11938,7 @@
 				E969157F1561BB93007E977B /* AKU-fmod-ex.h in Headers */,
 				DD80D66C16D8021D00C172D2 /* MOAIMath.h in Headers */,
 				DD80D69416D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
+				E09054F416F82DF500EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11917,6 +11950,7 @@
 				E98DBDC81537A2BF00514387 /* MOAIChartBoostIOS.h in Headers */,
 				DD80D66016D8021D00C172D2 /* MOAIMath.h in Headers */,
 				DD80D68816D8025000C172D2 /* MOAIFrameBufferTexture.h in Headers */,
+				E09054EF16F82DF000EEFCCB /* nanoflann.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
